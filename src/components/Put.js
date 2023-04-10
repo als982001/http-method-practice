@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import styled from "styled-components";
-import { putText } from "../functions";
+import { clearByPut, putText } from "../functions";
 import Text from "./Text";
 
 const Overlay = styled.section`

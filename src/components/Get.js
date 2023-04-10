@@ -150,8 +150,6 @@ export default function Get() {
   const getResults = async (data) => {
     const { value } = data;
 
-    console.log(Number(value));
-
     setIsLoading((prev) => true);
 
     if (btnType === "id") {
